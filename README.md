@@ -30,3 +30,24 @@ INFO:tensorflow:Loss for final step: 0.096133135.
 INFO:tensorflow:Saving dict for global step 34000: accuracy = 0.9784, global_step = 34000, loss = 0.06860989
 {'accuracy': 0.9784, 'loss': 0.06860989, 'global_step': 34000}
 ```
+
+### ResNet50 in TensorFlow
+Using Keras and TensorFlow based on deeplearning.ai's approach, we used it to train the Keio Cup Dataset (KCD) on the task of classifying a cup/glass to be filled with liquid, empty or opaque. The results on both Testing set and Training set are the following:
+```
+Epoch 60/64
+3953/3953 [==============================] - 1258s 318ms/step - loss: 1.2368 - acc: 0.5932
+Epoch 61/64
+3953/3953 [==============================] - 1260s 319ms/step - loss: 0.9196 - acc: 0.6613
+Epoch 62/64
+3953/3953 [==============================] - 1261s 319ms/step - loss: 0.8096 - acc: 0.6969
+Epoch 63/64
+3953/3953 [==============================] - 1263s 319ms/step - loss: 0.7739 - acc: 0.7149
+Epoch 64/64
+3953/3953 [==============================] - 1264s 320ms/step - loss: 0.7375 - acc: 0.7435
+```
+And
+```
+1318/1318 [==============================] - 111s 85ms/step
+Loss = 1.0352251507986296
+Test Accuracy = 0.642640364278611
+```
